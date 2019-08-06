@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-GKiOSNovel/Pods-GKiOSNovel-resources.sh
+${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Required/ShareSDK.bundle
+${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle

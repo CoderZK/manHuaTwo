@@ -1,0 +1,1 @@
+../../../HWPanModal/HWPanModal/Classes/Animator/HWPresentingVCAnimatedTransitioning.h

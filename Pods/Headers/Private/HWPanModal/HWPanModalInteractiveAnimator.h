@@ -1,0 +1,1 @@
+../../../HWPanModal/HWPanModal/Classes/Animator/HWPanModalInteractiveAnimator.h
