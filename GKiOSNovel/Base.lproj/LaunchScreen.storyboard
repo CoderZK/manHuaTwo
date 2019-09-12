@@ -18,38 +18,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7lZ-pH-uD9">
-                                <rect key="frame" x="0.0" y="712" width="414" height="150"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="5YC-AR-XtF">
-                                        <rect key="frame" x="143.5" y="57" width="30" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="1lj-G4-o1h"/>
-                                            <constraint firstAttribute="width" constant="30" id="raD-qd-BTt"/>
-                                        </constraints>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Novel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03W-Lr-Le2">
-                                        <rect key="frame" x="181.5" y="60" width="81.5" height="30"/>
-                                        <fontDescription key="fontDescription" name="HoeflerText-BlackItalic" family="Hoefler Text" pointSize="30"/>
-                                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="03W-Lr-Le2" firstAttribute="centerX" secondItem="7lZ-pH-uD9" secondAttribute="centerX" constant="15" id="4aS-Z6-M5V"/>
-                                    <constraint firstItem="03W-Lr-Le2" firstAttribute="centerY" secondItem="7lZ-pH-uD9" secondAttribute="centerY" id="A7g-pa-R6c"/>
-                                    <constraint firstAttribute="height" constant="150" id="KwC-tf-fSd"/>
-                                    <constraint firstItem="5YC-AR-XtF" firstAttribute="centerY" secondItem="03W-Lr-Le2" secondAttribute="centerY" constant="-3" id="Xsn-6T-Z21"/>
-                                    <constraint firstItem="03W-Lr-Le2" firstAttribute="leading" secondItem="5YC-AR-XtF" secondAttribute="trailing" constant="8" id="qn6-WO-Rjm"/>
-                                </constraints>
-                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6xb-eX-CDN">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="7lZ-pH-uD9" firstAttribute="leading" secondItem="238-UA-Lsc" secondAttribute="leading" id="Q09-ar-47p"/>
-                            <constraint firstItem="7lZ-pH-uD9" firstAttribute="bottom" secondItem="238-UA-Lsc" secondAttribute="bottom" id="aGf-tO-6X5"/>
-                            <constraint firstItem="7lZ-pH-uD9" firstAttribute="trailing" secondItem="238-UA-Lsc" secondAttribute="trailing" id="iGD-Qh-TDf"/>
+                            <constraint firstItem="238-UA-Lsc" firstAttribute="bottom" secondItem="6xb-eX-CDN" secondAttribute="bottom" id="TOi-dl-f7X"/>
+                            <constraint firstItem="238-UA-Lsc" firstAttribute="trailing" secondItem="6xb-eX-CDN" secondAttribute="trailing" id="o6Q-k3-lre"/>
+                            <constraint firstItem="6xb-eX-CDN" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="tVu-8S-Gji"/>
+                            <constraint firstItem="6xb-eX-CDN" firstAttribute="leading" secondItem="238-UA-Lsc" secondAttribute="leading" id="ziS-Ba-6zv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="238-UA-Lsc"/>
                     </view>
@@ -59,7 +37,4 @@
             <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="logo" width="25" height="25"/>
-    </resources>
 </document>
